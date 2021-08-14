@@ -1,0 +1,10 @@
+package com.himanshu.annotation;
+
+public class MediaTek implements MobileProcessor {
+
+	public void process() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

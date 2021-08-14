@@ -1,0 +1,27 @@
+package com.himanshu.framework;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+//        Car car = new Car();
+//        car.drive();
+//        
+//        Bike bike = new Bike();
+//        bike.drive();
+    	
+    	//Using the spring framework..
+    	
+    	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+    	
+    	Vechile v = (Vechile)context.getBean("vechile");
+    	v.drive();
+    }
+}

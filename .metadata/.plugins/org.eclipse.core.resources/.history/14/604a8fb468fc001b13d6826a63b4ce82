@@ -1,0 +1,10 @@
+package com.himanshu.framework;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Car implements Vechile {
+	public void drive() {
+	System.out.println("Hey I am driving the car.");
+	}
+}

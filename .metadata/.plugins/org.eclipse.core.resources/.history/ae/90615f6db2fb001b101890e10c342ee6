@@ -1,0 +1,7 @@
+package com.himanshu.framework;
+
+public class Car {
+	public void drive() {
+	System.out.println("Hey I am driving the car.");
+	}
+}

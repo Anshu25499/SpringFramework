@@ -1,0 +1,8 @@
+package com.himanshu.framework;
+
+public class Bike implements Vechile {
+	public void drive() {
+		System.out.println("Riding the bike.");
+		
+	}
+}

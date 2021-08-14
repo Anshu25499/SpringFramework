@@ -1,0 +1,9 @@
+package com.himanshu.annotation;
+
+public class Apple {
+	
+	public void phone() {
+		System.out.println("Apple Phone");
+	}
+
+}

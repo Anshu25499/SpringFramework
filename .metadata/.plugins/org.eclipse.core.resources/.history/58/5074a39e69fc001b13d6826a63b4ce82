@@ -1,0 +1,20 @@
+package com.himanshu.framework;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Car implements Vechile {
+	private Tyre tyre;
+	
+	public Tyre getTyre() {
+		return tyre;
+	}
+
+	public void setTyre(Tyre tyre) {
+		this.tyre = tyre;
+	}
+
+	public void drive() {
+	System.out.println("Hey I am driving the car."+ tyre);
+	}
+}

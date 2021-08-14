@@ -1,0 +1,12 @@
+package com.himanshu.annotation;
+
+import java.security.PublicKey;
+
+public class Snapdragon implements MobileProcessor {
+
+	public void process() {
+		System.out.println("Snapdragon Processor used.");
+
+	}
+
+}
